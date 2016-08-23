@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# usage: bin/compile <build-dir> <cache-dir> <env-dir>
+
+env_dir=$3
+printf "env:\n$(env)\n\n"
+printf "env_dir: $env_dir\n$(cat $env_dir/*)\n"

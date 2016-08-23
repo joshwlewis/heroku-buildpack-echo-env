@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# usage: bin/detect <build-dir>
+
+echo "env echo"
